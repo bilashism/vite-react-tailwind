@@ -120,18 +120,18 @@ The ideas and inspiration from this project are coming from the following:
 No License. You can use this starter as you wish.
 
 
-git checkout --orphan latest_branch
-git add -A
-git commit -am "initialized"
-git branch -D main
-git branch -m main
-git push -f origin main
+git checkout --orphan latest_branch  
+git add -A  
+git commit -am "initialized"  
+git branch -D main  
+git branch -m main  
+git push -f origin main  
 
-.env.local
-VITE_apiKey=
-VITE_authDomain=
-VITE_projectId=
-VITE_storageBucket=
-VITE_messagingSenderId=
-VITE_appId=
-VITE_APP_SERVER=
+.env.local  
+VITE_apiKey=  
+VITE_authDomain=  
+VITE_projectId=  
+VITE_storageBucket=  
+VITE_messagingSenderId=  
+VITE_appId=  
+VITE_APP_SERVER=  
